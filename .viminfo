@@ -27,16 +27,20 @@
 # Registers:
 
 # File marks:
-'0  2  0  ~/file1
-|4,48,2,0,1694243697,"~/file1"
-'1  2  0  /file1
-|4,49,2,0,1694243202,"/file1"
-'2  2  0  ~/.git/development/program
-|4,50,2,0,1694243150,"~/.git/development/program"
-'3  1  0  ~/.git/file1
-|4,51,1,0,1694243079,"~/.git/file1"
+'0  1  67829  ~/.git/file1
+|4,48,1,67829,1694243964,"~/.git/file1"
+'1  2  0  ~/file1
+|4,49,2,0,1694243697,"~/file1"
+'2  2  0  /file1
+|4,50,2,0,1694243202,"/file1"
+'3  2  0  ~/.git/development/program
+|4,51,2,0,1694243150,"~/.git/development/program"
+'4  1  0  ~/.git/file1
+|4,52,1,0,1694243079,"~/.git/file1"
 
 # Jumplist (newest first):
+-'  1  67829  ~/.git/file1
+|4,39,1,67829,1694243964,"~/.git/file1"
 -'  2  0  ~/file1
 |4,39,2,0,1694243697,"~/file1"
 -'  1  0  ~/file1
@@ -45,6 +49,10 @@
 |4,39,2,0,1694243202,"/file1"
 -'  2  0  /file1
 |4,39,2,0,1694243202,"/file1"
+-'  2  0  /file1
+|4,39,2,0,1694243202,"/file1"
+-'  2  0  ~/.git/development/program
+|4,39,2,0,1694243150,"~/.git/development/program"
 -'  2  0  ~/.git/development/program
 |4,39,2,0,1694243150,"~/.git/development/program"
 -'  2  0  ~/.git/development/program
@@ -53,6 +61,8 @@
 |4,39,1,0,1694243128,"~/.git/development/program"
 -'  1  0  ~/.git/development/program
 |4,39,1,0,1694243128,"~/.git/development/program"
+-'  1  0  ~/.git/development/program
+|4,39,1,0,1694243128,"~/.git/development/program"
 -'  1  0  ~/.git/file1
 |4,39,1,0,1694243079,"~/.git/file1"
 -'  1  0  ~/.git/file1
@@ -61,6 +71,8 @@
 |4,39,1,0,1694243079,"~/.git/file1"
 -'  1  0  ~/.git/file1
 |4,39,1,0,1694243079,"~/.git/file1"
+-'  1  0  /file1
+|4,39,1,0,1694242432,"/file1"
 -'  1  0  /file1
 |4,39,1,0,1694242432,"/file1"
 -'  1  0  /file1
@@ -74,6 +86,13 @@
 	^	2	0
 	.	1	10
 	+	1	10
+
+> ~/.git/file1
+	*	1694243483	0
+	"	1	67829
+	^	1	67830
+	.	1	67829
+	+	1	67829
 
 > /file1
 	*	1694243202	0
@@ -89,8 +108,3 @@
 	^	2	0
 	.	1	9
 	+	1	9
-
-> ~/.git/file1
-	*	1694243076	0
-	"	1	0
-	^	1	0
